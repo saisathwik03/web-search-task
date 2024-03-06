@@ -46,7 +46,7 @@ class WebCrawler:
 def main():
     crawler = WebCrawler()
     start_url = "https://example.com"
-    crawler.craw(start_url)
+    crawler.crawl(start_url) #Fixed the error as craw to crawl - Error -1
 
     keyword = "test"
     results = crawler.search(keyword)
